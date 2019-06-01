@@ -16,7 +16,7 @@ scrape_configs:
   - job_name: 'runner'
     honor_labels: true
     static_configs:
-      - targets: ['runner:4597']      
+      - targets: ['runner:4597']
   - job_name: 'prometheus'
     static_configs:
       - targets: ['prometheus:9090']

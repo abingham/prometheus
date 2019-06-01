@@ -6,8 +6,10 @@ services:
     image: cyberdojo/prometheus
     build:
       context: .
+      args:
+        - SHA
     command:
         - '-config.file=/etc/prometheus/prometheus.yml'
     container_name: cyber-dojo-prometheus
     ports:
-        - '9090:9090'
+        - 9090:9090
