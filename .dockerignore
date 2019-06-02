@@ -1,8 +1,3 @@
-#-----Ignore everything
-
 *
-
--#-----!Except these files
-
 !prometheus.yml
 !up.sh
