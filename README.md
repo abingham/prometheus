@@ -1,4 +1,6 @@
 
+[![CircleCI](https://circleci.com/gh/cyber-dojo/prometheus.svg?style=svg)](https://circleci.com/gh/cyber-dojo/prometheus)
+
 # cyberdojo/prometheus docker image
 
 - The source for the [cyberdojo/prometheus](https://hub.docker.com/r/cyberdojo/prometheus/tags) Docker image.
